@@ -2,6 +2,9 @@
 This repository contains an implementation of a Small Language Model (SLM) trained from scratch on the TinyStories dataset.
 The project walks through building and training a transformer-based model end-to-end, including data preprocessing, model design, and inference.
 
+## Project Demo
+Follow this link to generate a short story from your own prompt [Demo](https://huggingface.co/spaces/GPavanKumar/ShortStories_SLM).
+
 ## Project overview
 - Dataset: TinyStories — a dataset of short stories for language model training.
 - Goal: Train a transformer-based SLM from scratch for next-token prediction.
@@ -50,3 +53,7 @@ install dependecies with: pip install torch datasets tqdm numpy
 - Successfully trained a transformer-based small language model.
 - Demonstrated the ability to learn from scratch on TinyStories.
 - Inference results show coherent short text generations. (can be improved by training over more epochs)
+
+## Acknowledgments
+- [TinyStories Dataset](https://huggingface.co/datasets/roneneldan/TinyStories?utm_source=chatgpt.com)
+- Transformer architectures inspired by "Attention Is All You Need".
